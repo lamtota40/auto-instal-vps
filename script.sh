@@ -29,7 +29,7 @@ run-cmd "sudo apt-get upgrade -y"
 #----------------------------------------------#
 run-cmd "sudo apt-get install xfce4 -y"
 
-# non needed #
+# Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
 #run-cmd "sudo apt-get install xfce4-goodies -y"
 
