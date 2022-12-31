@@ -29,6 +29,10 @@ run-cmd "sudo apt-get upgrade -y"
 #----------------------------------------------#
 run-cmd "sudo apt-get install xfce4 -y"
 
+# install xfce session #
+#----------------------------------------------#
+run-cmd "sudo apt install xfce4-session"
+
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
 run-cmd "sudo apt-get install xfce4-goodies -y"
@@ -36,6 +40,10 @@ run-cmd "sudo apt-get install xfce4-goodies -y"
 # install the linux package that provides RDP (for windows remote desktop connection) #
 #-------------------------------------------------------------------------------------#
 run-cmd "sudo apt-get install xrdp -y"
+
+#enable startup xrdp #
+#--------------------#
+run-cmd "sudo systemctl enable xrdp"
 
 # put a small file in the RDP users directory, letting XRDP know which desktop to start #
 #---------------------------------------------------------------------------------------#
