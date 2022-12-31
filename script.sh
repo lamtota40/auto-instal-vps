@@ -29,10 +29,6 @@ run-cmd "sudo apt-get upgrade -y"
 #----------------------------------------------#
 run-cmd "sudo apt-get install xfce4 -y"
 
-# install xfce session #
-#----------------------------------------------#
-run-cmd "sudo apt install xfce4-session"
-
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
 run-cmd "sudo apt-get install xfce4-goodies -y"
