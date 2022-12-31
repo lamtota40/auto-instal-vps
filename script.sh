@@ -27,7 +27,7 @@ run-cmd "sudo apt-get upgrade -y"
 
 # install one of the most lightweight desktops #
 #----------------------------------------------#
-run-cmd "sudo apt-get install -y xfce4 -> gdm3"
+run-cmd "sudo apt-get install xfce4 -y"
 
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
