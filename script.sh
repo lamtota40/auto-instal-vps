@@ -27,7 +27,7 @@ run-cmd "sudo apt-get upgrade -y"
 
 # install one of the most lightweight desktops #
 #----------------------------------------------#
-run-cmd "sudo apt-get install xfce4 -y"
+run-cmd "sudo apt-get install -y xfce4 -> gdm3"
 
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
@@ -35,7 +35,7 @@ run-cmd "sudo apt-get install xfce4 -y"
 
 # install the linux package that provides RDP (for windows remote desktop connection) #
 #-------------------------------------------------------------------------------------#
-#run-cmd "sudo apt-get install xrdp -y"
+run-cmd "sudo apt-get install xrdp -y"
 
 # put a small file in the RDP users directory, letting XRDP know which desktop to start #
 #---------------------------------------------------------------------------------------#
@@ -46,7 +46,7 @@ echo "xfce4-session" > /root/.xsession
 
 # add the xrdp user to the ssl-cert group" #
 #------------------------------------------#
-# run-cmd "sudo usermod -a -G ssl-cert xrdp"
+run-cmd "sudo usermod -a -G ssl-cert xrdp"
 
 # install the version of Virtualbox from the repository #
 #-------------------------------------------------------#
