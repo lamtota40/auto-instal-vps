@@ -90,7 +90,7 @@ run-cmd "sudo apt-get install firefox -y"
 
 # install cpu-x for view detail cpu#
 #----------------------------------#
-run-cmd "sudo apt install cpu-x"
+run-cmd "sudo apt install cpu-x -y"
 
 # install the Snap Store #
 #---------------------------------#
