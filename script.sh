@@ -48,6 +48,10 @@ echo "xfce4-session" > /root/.xsession
 #------------------------------------------#
 run-cmd "sudo usermod -a -G ssl-cert xrdp"
 
+# install cpu-x for view detail cpu#
+#----------------------------------#
+run-cmd "sudo apt install cpu-x"
+
 # install the version of Virtualbox from the repository #
 #-------------------------------------------------------#
 run-cmd "sudo apt-get install virtualbox -y" 
