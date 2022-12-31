@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #####################################
-# V13-ubuntu-20.04-build-script-v01 #
+# tested on ubuntu-20.04-build-script-v01 #
 #####################################
 
 function run-cmd ()
@@ -54,11 +54,11 @@ run-cmd "sudo apt install cpu-x"
 
 # install the version of Virtualbox from the repository #
 #-------------------------------------------------------#
-run-cmd "sudo apt-get install virtualbox -y" 
+# run-cmd "sudo apt-get install virtualbox -y" 
 
 # install the extenionpack as it contains the Virtualbox RDP Server #
 #-------------------------------------------------------------------#
-run-cmd "sudo apt install virtualbox-ext-pack -y" 
+# run-cmd "sudo apt install virtualbox-ext-pack -y" 
 
 # show the current status of the firewall #
 #-----------------------------------------#
@@ -88,9 +88,15 @@ run-cmd "sudo ufw enable"
 #-----------------------------------------#
 run-cmd "sudo ufw status numbered"
 
-# install the firefox web browser. Has proven very useful to download .ISO #
-# files for Virtualbox, or to browse Google Drive / Dropbox / Onedrive.    #
-#--------------------------------------------------------------------------#
+# install the firefox web browser #
+#---------------------------------#
 run-cmd "sudo apt-get install firefox -y"
 
+# install the firefox web browser #
+#---------------------------------#
+run-cmd "sudo snap install snap-store"
+
+# install the firefox web browser #
+#---------------------------------#
+run-cmd "sudo snap install notepad-plus-plus"
 # ========= SCRIPT END ============
