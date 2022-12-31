@@ -99,4 +99,5 @@ run-cmd "sudo snap install snap-store"
 # install the Notepad Plus Plus #
 #---------------------------------#
 run-cmd "sudo snap install notepad-plus-plus"
-# ========= SCRIPT END ============
+
+# ========= SCRIPT END ============#
