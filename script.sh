@@ -48,10 +48,6 @@ echo "xfce4-session" > /root/.xsession
 #------------------------------------------#
 run-cmd "sudo usermod -a -G ssl-cert xrdp"
 
-# install cpu-x for view detail cpu#
-#----------------------------------#
-run-cmd "sudo apt install cpu-x"
-
 # install the version of Virtualbox from the repository #
 #-------------------------------------------------------#
 # run-cmd "sudo apt-get install virtualbox -y" 
@@ -92,11 +88,15 @@ run-cmd "sudo ufw status numbered"
 #---------------------------------#
 run-cmd "sudo apt-get install firefox -y"
 
-# install the firefox web browser #
+# install cpu-x for view detail cpu#
+#----------------------------------#
+run-cmd "sudo apt install cpu-x"
+
+# install the Snap Store #
 #---------------------------------#
 run-cmd "sudo snap install snap-store"
 
-# install the firefox web browser #
+# install the Notepad Plus Plus #
 #---------------------------------#
 run-cmd "sudo snap install notepad-plus-plus"
 # ========= SCRIPT END ============
