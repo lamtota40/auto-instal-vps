@@ -31,7 +31,7 @@ run-cmd "sudo apt-get install -y xfce4 -> gdm3"
 
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
-#run-cmd "sudo apt-get install xfce4-goodies -y"
+run-cmd "sudo apt-get install xfce4-goodies -y"
 
 # install the linux package that provides RDP (for windows remote desktop connection) #
 #-------------------------------------------------------------------------------------#
@@ -86,7 +86,7 @@ run-cmd "sudo ufw status numbered"
 
 # install the firefox web browser #
 #---------------------------------#
-run-cmd "sudo apt-get install firefox -y"
+#run-cmd "sudo apt-get install firefox -y"
 
 # install cpu-x for detail cpu#
 #----------------------------------#
