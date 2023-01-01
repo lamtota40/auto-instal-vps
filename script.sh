@@ -90,7 +90,7 @@ run-cmd "sudo ufw status numbered"
 
 # install the firefox web browser #
 #---------------------------------#
-#run-cmd "sudo apt-get install firefox -y"
+run-cmd "sudo apt-get install firefox -y"
 
 # install cpu-x for detail cpu#
 #----------------------------------#
