@@ -31,15 +31,11 @@ run-cmd "sudo apt-get install xfce4 -y"
 
 # Install additional components for XFCE (panel, file manager, and various plugins) #
 #------------#
-run-cmd "sudo apt-get install xfce4-goodies -y"
+#run-cmd "sudo apt-get install xfce4-goodies -y"
 
 # install the linux package that provides RDP (for windows remote desktop connection) #
 #-------------------------------------------------------------------------------------#
 run-cmd "sudo apt-get install xrdp -y"
-
-#enable startup xrdp #
-#--------------------#
-run-cmd "sudo systemctl enable xrdp"
 
 # put a small file in the RDP users directory, letting XRDP know which desktop to start #
 #---------------------------------------------------------------------------------------#
@@ -102,6 +98,6 @@ run-cmd "sudo snap install snap-store"
 
 # install the Notepad Plus Plus #
 #---------------------------------#
-run-cmd "sudo snap install notepad-plus-plus"
+#run-cmd "sudo snap install notepad-plus-plus"
 
 # ========= SCRIPT END ============#
